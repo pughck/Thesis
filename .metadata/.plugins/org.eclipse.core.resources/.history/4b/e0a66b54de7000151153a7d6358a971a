@@ -1,0 +1,9 @@
+package edu.rosehulman.pughck;
+
+public class StormTestTopology {
+
+	public static void main(String[] args) {
+
+		TopologyBuilder builder = new TopologyBuilder();
+	}
+}

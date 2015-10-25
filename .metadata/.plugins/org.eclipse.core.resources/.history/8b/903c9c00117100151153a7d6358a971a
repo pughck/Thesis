@@ -1,0 +1,31 @@
+package edu.rosehulman.pughck;
+
+import backtype.storm.Config;
+import backtype.storm.StormSubmitter;
+import backtype.storm.topology.TopologyBuilder;
+import backtype.storm.topology.base.BaseRichSpout;
+
+import storm.kafka.bolt.KafkaBolt;
+import storm.kafka.bolt.mapper.FieldNameBasedTupleToKafkaMapper;
+import storm.kafka.bolt.selector.DefaultTopicSelector;
+
+public class KafkaBoltTopology {
+
+	public static void main(String[] args) throws Exception {
+
+		TopologyBuilder builder = new TopologyBuilder();
+		BaseRichSpout spout = new StormTestTweetSpout("", "", "", "");
+
+		builder.setSpout("tweetSpout", spout, 1);
+		KafkaBolt<String, String> bolt = new KafkaBolt()<>.withTopicSelector(new DefaultTopicSelector("test"))
+				.withTupleToKafkaMapper(new FieldNameBasedTupleToKafkaMapper());
+
+		builder.setBolt("bolt", bolt, 1).globalGrouping("tweet");
+
+		Config conf = new Config();
+
+		conf.setNumWorkers(1);
+
+		StormSubmitter.submitTopology("test", conf, builder.createTopology());
+	}
+}

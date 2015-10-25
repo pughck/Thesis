@@ -1,0 +1,12 @@
+package edu.rosehulman.pughck;
+
+import backtype.storm.topology.TopologyBuilder;
+
+public class StormTestTopology {
+
+	public static void main(String[] args) {
+
+		TopologyBuilder builder = new TopologyBuilder();
+		Spout spout = new TweetSpout();
+	}
+}

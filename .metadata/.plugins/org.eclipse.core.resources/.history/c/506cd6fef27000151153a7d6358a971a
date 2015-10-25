@@ -1,0 +1,38 @@
+package edu.rosehulman.pughck;
+
+import java.util.Map;
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+import backtype.storm.spout.SpoutOutputCollector;
+import backtype.storm.task.TopologyContext;
+import backtype.storm.topology.OutputFieldsDeclarer;
+import backtype.storm.topology.base.BaseRichSpout;
+import backtype.storm.tuple.Fields;
+
+public class StormTestTweetSpout extends BaseRichSpout {
+
+	private LinkedBlockingQueue<String> queue;
+
+	public StormTestTweetSpout() {
+
+	}
+
+	@Override
+	public void nextTuple() {
+
+		String next = this.queue.poll();
+	}
+
+	@Override
+	public void open(Map map, TopologyContext context, SpoutOutputCollector collector) {
+
+		this.queue = new LinkedBlockingQueue<String>(1000);
+	}
+
+	@Override
+	public void declareOutputFields(OutputFieldsDeclarer declarer) {
+
+		declarer.declare(new Fields("tweet"));
+	}
+}
