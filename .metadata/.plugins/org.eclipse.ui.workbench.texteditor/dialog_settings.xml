@@ -13,12 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="stream" key="selection"/>
+		<item value="shade" key="selection"/>
 		<list key="findhistory">
-			<item value="stream"/>
-			<item value="streamL"/>
-			<item value="sream"/>
-			<item value="sreamL"/>
+			<item value="shade"/>
+			<item value="maven-assem"/>
+			<item value="maven-assemb;l"/>
+			<item value="maven-s"/>
+			<item value="maven-"/>
+			<item value="maven"/>
+			<item value="dependency"/>
+			<item value="mainclass"/>
 		</list>
 		<list key="replacehistory">
 		</list>

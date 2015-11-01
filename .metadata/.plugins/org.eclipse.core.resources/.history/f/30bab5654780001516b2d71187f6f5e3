@@ -1,0 +1,7 @@
+package edu.rosehulman.pughck;
+
+import org.apache.storm.hdfs.bolt.HdfsBolt;
+
+public class ClusterHdfsBolt extends HdfsBolt {
+
+}

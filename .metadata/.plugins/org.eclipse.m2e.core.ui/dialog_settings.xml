@@ -42,6 +42,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\pughck\Documents\Academics\&apos;15-&apos;16\CS Thesis\Testing\StormTest2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,6 +80,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="StormTest2"/>
 			<item value="BasicStorm"/>
 			<item value="StormTest"/>
 		</list>

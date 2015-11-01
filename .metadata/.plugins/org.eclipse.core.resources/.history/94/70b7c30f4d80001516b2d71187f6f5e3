@@ -1,0 +1,28 @@
+package edu.rosehulman.pughck;
+
+import java.util.Map;
+
+import org.apache.storm.hdfs.bolt.format.FileNameFormat;
+
+import backtype.storm.task.TopologyContext;
+
+@SuppressWarnings("serial")
+public class ClusterFileNameFormat implements FileNameFormat {
+
+	@Override
+	public String getName(long arg0, long arg1) {
+
+		return null;
+	}
+
+	@Override
+	public String getPath() {
+
+		return null;
+	}
+
+	@Override
+	public void prepare(Map map, TopologyContext context) {
+
+	}
+}

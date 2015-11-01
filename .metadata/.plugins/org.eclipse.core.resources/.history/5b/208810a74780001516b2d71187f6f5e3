@@ -1,0 +1,19 @@
+package edu.rosehulman.pughck;
+
+import java.io.IOException;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.storm.hdfs.bolt.HdfsBolt;
+
+@SuppressWarnings("serial")
+public class ClusterHdfsBolt extends HdfsBolt {
+
+	public ClusterHdfsBolt() {
+
+	}
+
+	@Override
+	Path createOutputFile() throws IOException {
+
+	}
+}
