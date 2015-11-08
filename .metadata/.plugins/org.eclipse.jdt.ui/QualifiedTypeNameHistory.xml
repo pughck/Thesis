@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
 <fullyQualifiedTypeName name="twitter4j.TwitterStream"/>
 <fullyQualifiedTypeName name="org.apache.commons.configuration.ConfigurationBuilder"/>
@@ -10,7 +9,6 @@
 <fullyQualifiedTypeName name="twitter4j.StatusListener"/>
 <fullyQualifiedTypeName name="edu.rosehulman.pughck.StormTestBolt"/>
 <fullyQualifiedTypeName name="edu.rosehulman.pughck.StormTestTweetSpout"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="storm.kafka.trident.selector.DefaultTopicSelector"/>
@@ -22,7 +20,6 @@
 <fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichSpout"/>
 <fullyQualifiedTypeName name="backtype.storm.utils.Utils"/>
 <fullyQualifiedTypeName name="backtype.storm.tuple.Values"/>
-<fullyQualifiedTypeName name="backtype.storm.tuple.Fields"/>
 <fullyQualifiedTypeName name="backtype.storm.task.OutputCollector"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.DelimitedRecordFormat"/>
@@ -37,24 +34,30 @@
 <fullyQualifiedTypeName name="storm.kafka.trident.TridentKafkaState"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichBolt"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.AbstractHdfsBolt"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataOutputStream"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.sync.SyncPolicy"/>
-<fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.rotation.FileRotationPolicy"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.common.rotation.RotationAction"/>
 <fullyQualifiedTypeName name="java.net.URI"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.client.HdfsDataOutputStream"/>
-<fullyQualifiedTypeName name="java.util.EnumSet"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.client.HdfsDataOutputStream.SyncFlag"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="backtype.storm.Config"/>
 <fullyQualifiedTypeName name="backtype.storm.topology.TopologyBuilder"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.HdfsBolt"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.FileNameFormat"/>
-<fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.RecordFormat"/>
 <fullyQualifiedTypeName name="backtype.storm.StormSubmitter"/>
+<fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichBolt"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.rotation.NoRotationPolicy"/>
+<fullyQualifiedTypeName name="backtype.storm.generated.GlobalStreamId"/>
+<fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.RecordFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataOutputStream"/>
+<fullyQualifiedTypeName name="backtype.storm.tuple.Tuple"/>
+<fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.rotation.FileRotationPolicy"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.client.HdfsDataOutputStream"/>
+<fullyQualifiedTypeName name="java.util.EnumSet"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.client.HdfsDataOutputStream.SyncFlag"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="backtype.storm.tuple.Fields"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
 </qualifiedTypeNameHistroy>

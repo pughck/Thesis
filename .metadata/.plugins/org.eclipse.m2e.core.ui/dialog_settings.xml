@@ -42,6 +42,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\pughck\Documents\Academics\&apos;15-&apos;16\CS Thesis\Testing\StormTest2\src\main\java\edu\rosehulman\pughck\CustomHdfsBolt.java"/>
 			<item value="C:\Users\pughck\Documents\Academics\&apos;15-&apos;16\CS Thesis\Testing\StormTest2"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -74,15 +75,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="edu.rosehulman.pughck"/>
-			<item value="edu.rosehulman.edu"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="StormTest2"/>
-			<item value="BasicStorm"/>
-			<item value="StormTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
