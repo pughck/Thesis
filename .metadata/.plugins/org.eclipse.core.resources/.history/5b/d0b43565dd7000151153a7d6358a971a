@@ -1,7 +1,0 @@
-package edu.rosehulman.pughck;
-
-import backtype.storm.topology.BaseRichSpout
-
-public class StormTestTweetSpout extends BaseRichSpout {
-
-}
