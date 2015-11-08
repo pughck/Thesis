@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="305" key="DIALOG_WIDTH"/>
-		<item value="174" key="DIALOG_Y_ORIGIN"/>
+		<item value="202" key="DIALOG_Y_ORIGIN"/>
+		<item value="1447" key="DIALOG_X_ORIGIN"/>
 		<item value="442" key="DIALOG_HEIGHT"/>
-		<item value="1261" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="shade" key="selection"/>
+		<item value="fs" key="selection"/>
 		<list key="findhistory">
+			<item value="fs"/>
+			<item value="declare"/>
+			<item value="configKey"/>
+			<item value="hdfsConfig"/>
+			<item value="fsUrl"/>
+			<item value="rotateOutputFile"/>
 			<item value="shade"/>
 			<item value="maven-assem"/>
-			<item value="maven-assemb;l"/>
-			<item value="maven-s"/>
-			<item value="maven-"/>
-			<item value="maven"/>
-			<item value="dependency"/>
-			<item value="mainclass"/>
 		</list>
 		<list key="replacehistory">
 		</list>

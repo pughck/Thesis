@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
-<fullyQualifiedTypeName name="twitter4j.TwitterStream"/>
 <fullyQualifiedTypeName name="org.apache.commons.configuration.ConfigurationBuilder"/>
 <fullyQualifiedTypeName name="twitter4j.conf.ConfigurationBuilder"/>
 <fullyQualifiedTypeName name="twitter4j.TwitterStreamFactory"/>
@@ -19,7 +17,6 @@
 <fullyQualifiedTypeName name="backtype.storm.spout.SpoutOutputCollector"/>
 <fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichSpout"/>
 <fullyQualifiedTypeName name="backtype.storm.utils.Utils"/>
-<fullyQualifiedTypeName name="backtype.storm.tuple.Values"/>
 <fullyQualifiedTypeName name="backtype.storm.task.OutputCollector"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.DelimitedRecordFormat"/>
@@ -46,12 +43,10 @@
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.HdfsBolt"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.FileNameFormat"/>
 <fullyQualifiedTypeName name="backtype.storm.StormSubmitter"/>
-<fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichBolt"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.rotation.NoRotationPolicy"/>
 <fullyQualifiedTypeName name="backtype.storm.generated.GlobalStreamId"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.format.RecordFormat"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataOutputStream"/>
 <fullyQualifiedTypeName name="backtype.storm.tuple.Tuple"/>
 <fullyQualifiedTypeName name="org.apache.storm.hdfs.bolt.rotation.FileRotationPolicy"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.hdfs.client.HdfsDataOutputStream"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="backtype.storm.tuple.Fields"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataOutputStream"/>
+<fullyQualifiedTypeName name="backtype.storm.topology.base.BaseRichBolt"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FileStatus"/>
+<fullyQualifiedTypeName name="backtype.storm.tuple.Values"/>
 </qualifiedTypeNameHistroy>

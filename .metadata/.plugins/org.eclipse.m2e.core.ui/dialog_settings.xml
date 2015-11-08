@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
-		<item value="450" key="height"/>
-		<item value="480" key="width"/>
-		<item value="242" key="y"/>
-		<item value="1036" key="x"/>
-	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -15,6 +9,12 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item value="450" key="height"/>
+		<item value="480" key="width"/>
+		<item value="242" key="y"/>
+		<item value="1036" key="x"/>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="issueManagementUrl">
@@ -34,12 +34,6 @@
 		<item value="216" key="y"/>
 		<item value="509" key="x"/>
 	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item value="665" key="height"/>
-		<item value="480" key="width"/>
-		<item value="61" key="y"/>
-		<item value="392" key="x"/>
-	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="C:\Users\pughck\Documents\Academics\&apos;15-&apos;16\CS Thesis\Testing\StormTest2\src\main\java\edu\rosehulman\pughck\CustomHdfsBolt.java"/>
@@ -53,6 +47,12 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="665" key="height"/>
+		<item value="480" key="width"/>
+		<item value="61" key="y"/>
+		<item value="392" key="x"/>
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
@@ -75,10 +75,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="edu.rosehulman.pughck"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="StormTopology"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

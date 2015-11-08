@@ -1,5 +1,0 @@
-package edu.rosehulman.pughck;
-
-@SuppressWarnings("serial")
-public class ClusterHdfsBolt extends AbstractHdfsBolt {
-}
