@@ -20,7 +20,7 @@ public class Topology {
 				"nWComrkhNlHYKVE2SjCb2D1roLzNog1NNDEh5s98c9i6KJJ6XT",
 				"4041041357-rkWibnDMhQSwJD1g5iOCsJae2J56Ni4XGbbOVe9", "XaDM2EVfh3om2uWsUD6sWVCeOERFgyDqHQAb6FfwSUUix");
 
-		builder.setSpout("tweetSpout", spout, 1);
+		builder.setSpout("tweetSpout", spout, 5);
 		builder.setBolt("groupBolt", new GroupingBolt(), 5).shuffleGrouping("tweetSpout");
 		builder.setBolt("hdfsBolt", new HdfsOutBolt(), 5).fieldsGrouping("groupBolt", new Fields("company"));
 

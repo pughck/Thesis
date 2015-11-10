@@ -21,8 +21,8 @@ public class Topology {
 				"4041041357-rkWibnDMhQSwJD1g5iOCsJae2J56Ni4XGbbOVe9", "XaDM2EVfh3om2uWsUD6sWVCeOERFgyDqHQAb6FfwSUUix");
 
 		builder.setSpout("tweetSpout", spout, 1);
-		builder.setBolt("groupBolt", new GroupingBolt(), 5).shuffleGrouping("tweetSpout");
-		builder.setBolt("hdfsBolt", new HdfsOutBolt(), 5).fieldsGrouping("groupBolt", new Fields("company"));
+		builder.setBolt("groupBolt", new GroupingBolt(), 1).shuffleGrouping("tweetSpout");
+		builder.setBolt("hdfsBolt", new HdfsOutBolt(), 1).fieldsGrouping("groupBolt", new Fields("company"));
 
 		StormSubmitter.submitTopology("topology", conf, builder.createTopology());
 	}
