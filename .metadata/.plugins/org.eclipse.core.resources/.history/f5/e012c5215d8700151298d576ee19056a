@@ -33,8 +33,6 @@ public class GroupingBolt extends BaseRichBolt {
 
 		if (company != "") {
 			this.collector.emit(new Values(tweet, company));
-		} else {
-			this.collector.emit(new Values(tweet, "none"));
 		}
 	}
 
